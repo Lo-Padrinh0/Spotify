@@ -1,0 +1,12 @@
+:root{
+    --branco : #ffffff;
+    --verdeEscuro : #1db954;
+    --verdeClaro : #1ed760;
+    --preto : #191414;
+}
+
+body{
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(161,77,77,1) 100%);
+}

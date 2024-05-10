@@ -12,6 +12,8 @@
     --verdeEscuro : #1db954;
     --verdeClaro : #1ed760;
     --preto : #191414;
+    --cinza : #363636;
+    --cinzaClaro: #686767;
 }
 
 body{
@@ -39,4 +41,50 @@ body{
 .card img, .card{
     border: none;
     border-radius: 0%;
+}
+
+#playerMusica{
+    height: auto;
+    background-color: var(--cinza);
+}
+
+#botoesMusica img{
+    height: 32px;
+}
+
+#progressoDaMusica{
+    background-color: var(--verdeClaro);
+}
+
+.progressoDaMusicaComeco{
+    width: 0%;
+    transition: 180s;
+}
+
+.progressoDaMusicaCompleto{
+    width: 100%;
+    transition: 180s;
+}
+
+#progressoDaMusicaBarraTotal{
+    width: 60%;
+    height: 3px;
+    background-color: var(--cinzaClaro);
+}
+
+/* menu lateral */
+#menuLateral{
+    width: 300px;
+    background-color: #191414da;
+}
+
+.input-group input,.input-group span{
+    border: none;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 0%; 
+}
+
+input::placeholder{
+    color: var(--branco)!important;
 }
